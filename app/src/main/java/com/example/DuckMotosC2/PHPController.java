@@ -35,7 +35,7 @@ public class PHPController {
     Context c;
     RequestQueue requestQueue;
 
-     public static String IP = "192.168.1.111111"; //IP Casa
+     public static String IP = "192.168.1.0"; //IP Casa
     //public static String IP = "172.17.4.28"; //IP Universidad
 
     //Usuario URLS
