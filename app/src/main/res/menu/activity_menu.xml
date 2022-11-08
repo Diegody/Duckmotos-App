@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Menu">
+
+    <item
+        android:id="@+id/plus"
+        android:icon="@drawable/ic_references"
+        android:title="Mas">
+
+        <menu>
+            <item
+                android:id="@+id/info_app"
+                android:icon="@drawable/ic_info"
+                android:title="Acerca de la App" />
+
+            <item
+                android:id="@+id/dev"
+                android:icon="@drawable/ic_developer"
+                android:title="Desarrolladores" />
+
+            <item
+                android:id="@+id/more"
+                android:icon="@drawable/ic_references"
+                android:title="Referencias" />
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/salir"
+        android:icon="@drawable/ic_exit"
+        android:title="Salir" />
+
+</menu>

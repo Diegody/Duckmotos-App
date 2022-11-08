@@ -1,0 +1,58 @@
+<resources>
+    <!-- MainActivity -->
+    <string name="app_name">DuckMotos App</string>
+    <string name="engineer1">Diego Cardenas Herrera</string>
+    <string name="engineer2">David Gonzalez</string>
+
+    <!-- LoginActivity -->
+    <string name="log_titulo">Iniciar Sesión</string>
+    <string name="log_login">Ingresar</string>
+    <string name="log_goRegister">Registrarse</string>
+    <string name="log_goAlcance">Descripción</string>
+    <string name="log_hintUser">Usuario</string>
+    <string name="log_hintPass">Contraseña</string>
+    <string name="log_question">O Registrate Aquí</string>
+    <string name="log_question2"><b><u>VER ALCANCES DEL PROYECTO</u></b></string>
+    <string name="log_yamil">ACTIVIDAD SPINNER</string>
+
+    <!-- RegisterActivity -->
+    <string name="reg_titulo">Registrar</string>
+    <string name="reg_register">Registrarse</string>
+    <string name="reg_goLogin">Login</string>
+    <string name="reg_hintNombre">Nombre</string>
+    <string name="reg_hintApellido">Apellido</string>
+    <string name="reg_hintCorreo">Correo electronico</string>
+    <string name="reg_hintUser">Nombre de usuario</string>
+    <string name="reg_hintPass">Contraseña</string>
+    <string name="reg_question">O Inicia Sesión Aquí</string>
+
+    <!-- AdminActivity -->
+    <string name="admin_titulo">Administrador</string>
+    <string name="admin_tablas">Privilegios</string>
+    <string name="admin_tablaUsuarios">Usuarios</string>
+    <string name="admin_tablaComentarios">Comentarios</string>
+    <string name="admin_tablaPublicaciones">Publicaciones</string>
+    <string name="admin_tablaImagenes">Catálogo Motos</string>
+    <string name="admin_tablaPerfiles">Perfiles</string>
+
+    <!-- UsuarioActivity -->
+    <string name="user_profile">Ver Perfil</string>
+    <string name="user_titulo">Usuario</string>
+    <string name="user_editprofile">Editar</string>
+
+    <!-- Items -->
+    <!-- perfil -->
+    <string name="perIt_idperfil"><b>ID Perfil:</b></string>
+    <string name="perIt_idusuario"><b>ID Usuario:</b></string>
+    <string name="perIt_tipo"><b>Tipo:</b></string>
+    <string name="perIt_codigo"><b>Código:</b></string>
+
+    <!-- comentario -->
+    <string name="comIt_idpublicacion"><b>ID Publicación:</b></string>
+    <string name="comIt_idusuario"><b>ID Usuario:</b></string>
+
+    <!-- publicacion -->
+    <string name="pubIt_idimagen"><b>ID Imagen:</b></string>
+    <string name="pubIt_idusuario"><b>ID Usuario:</b></string>
+
+</resources>
