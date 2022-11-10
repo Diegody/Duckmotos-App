@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class OpcionesUsuarioActivity extends AppCompatActivity {
 
@@ -19,7 +20,7 @@ public class OpcionesUsuarioActivity extends AppCompatActivity {
     //PHP
     PHPController phpController;
     PHPController controller;
-    Button btnTablaImagenes;
+    Button btnTablaImagenes, btnSalir, btnInternet;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,6 +47,27 @@ public class OpcionesUsuarioActivity extends AppCompatActivity {
             }
         });
 
+        btnSalir = (Button) findViewById(R.id.btnExit);
+        btnSalir.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(OpcionesUsuarioActivity.this, LoginActivity.class);
+                Toast.makeText(getApplicationContext(), "Sesión Cerrada", Toast.LENGTH_SHORT).show();
+                startActivity(i);
+            }
+        });
+
+        btnInternet = (Button) findViewById(R.id.btnInternet);
+        btnInternet.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent u = new Intent(OpcionesUsuarioActivity.this, Internet.class);
+                Toast.makeText(getApplicationContext(), "Ingreso a Internet", Toast.LENGTH_SHORT).show();
+                startActivity(u);
+            }
+        });
+
     }
+
 
 }

@@ -91,7 +91,37 @@
             android:background="@drawable/btn_redondeado"
             android:backgroundTint="@color/black"
             android:layout_margin="15dp"/>
-
+        <Button
+            android:id="@+id/btnInternet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Navegación Web"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:background="@drawable/btn_redondeado"
+            android:backgroundTint="@color/black"
+            android:layout_margin="15dp"/>
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="10dp">
+
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/btn_redondeado"
+            android:backgroundTint="#F80202"
+            android:text="Cerrar Sesión"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
 
 </LinearLayout>

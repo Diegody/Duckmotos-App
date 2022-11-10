@@ -2,6 +2,8 @@ package com.example.DuckMotosC2;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.preference.PreferenceManager;
 import android.widget.Toast;
 
 import androidx.annotation.Nullable;
@@ -35,7 +37,7 @@ public class PHPController {
     Context c;
     RequestQueue requestQueue;
 
-     public static String IP = "192.168.1.0"; //IP Casa
+     public static String IP = "192.168.1.2"; //IP Casa
     //public static String IP = "172.17.4.28"; //IP Universidad
 
     //Usuario URLS

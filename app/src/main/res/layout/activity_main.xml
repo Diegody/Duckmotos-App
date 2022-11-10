@@ -21,10 +21,10 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/icono"
-        android:layout_margin="20dp"/>
+        android:layout_margin="20dp"
+        android:src="@drawable/icono" />
 
-    <TextView
+    <!-- <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Diegody Herrera"
@@ -40,6 +40,6 @@
         android:textColor="@color/black"
         android:textStyle="bold"
         android:gravity="center"
-        android:textSize="25sp"/>
+        android:textSize="25sp"/> -->
 
 </LinearLayout>

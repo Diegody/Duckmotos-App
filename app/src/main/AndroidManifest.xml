@@ -15,6 +15,9 @@
         android:theme="@style/Theme.DuckMotos"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".Internet"
+            android:exported="false" />
+        <activity
             android:name=".Menu"
             android:exported="false" />
         <activity
