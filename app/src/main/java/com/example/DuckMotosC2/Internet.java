@@ -13,6 +13,6 @@ public class Internet extends AppCompatActivity {
         setContentView(R.layout.activity_internet);
 
         WebView myWebView = (WebView) findViewById(R.id.webview);
-        myWebView.loadUrl("https://www.google.com");
+        myWebView.loadUrl("https://www.incolmotos-yamaha.com.co/");
     }
 }

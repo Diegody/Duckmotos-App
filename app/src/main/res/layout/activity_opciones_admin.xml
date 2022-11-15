@@ -95,7 +95,7 @@
             android:id="@+id/btnInternet"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Navegación Web"
+            android:text="Página Oficial"
             android:textColor="@color/white"
             android:textSize="18sp"
             android:background="@drawable/btn_redondeado"

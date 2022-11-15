@@ -37,7 +37,7 @@ public class PHPController {
     Context c;
     RequestQueue requestQueue;
 
-     public static String IP = "192.168.1.2"; //IP Casa
+     public static String IP = "192.168.1.6"; //IP Casa
     //public static String IP = "172.17.4.28"; //IP Universidad
 
     //Usuario URLS
@@ -264,7 +264,7 @@ public class PHPController {
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
-                        Toast.makeText(c, "Update Succesful", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(c, "Actualización con Éxito", Toast.LENGTH_SHORT).show();
                     }
                 },
                 new Response.ErrorListener() {
